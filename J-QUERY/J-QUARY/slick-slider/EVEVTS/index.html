@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slick slider</title>
+    <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+	<div class="center">
+	  <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+		 <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+	   <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+	   <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+	   <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+	   <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+	   <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+	   <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+	   <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+	   <div class="item">
+		<h2>Hello world</h2>
+		<p>Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text</P>
+	  </div>
+	</div>
+
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript"></script>
+	<script>
+	$('.center').slick({
+	  centerMode: true,
+	  centerPadding: '60px',
+	  slidesToShow: 3,
+	  responsive: [
+		{
+		  breakpoint: 768,
+		  settings: {
+			arrows: false,
+			centerMode: true,
+			centerPadding: '40px',
+			slidesToShow: 3
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			arrows: false,
+			centerMode: true,
+			centerPadding: '40px',
+			slidesToShow: 1
+		  }
+		}
+	  ]
+	});
+	</script>
+</body>
+</html>

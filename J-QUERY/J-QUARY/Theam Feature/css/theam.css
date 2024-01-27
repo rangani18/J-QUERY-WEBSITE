@@ -1,0 +1,42 @@
+:root{
+	--bg-color:pink;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+	width:300px;
+	height:400px;
+	background-color:var(--bg-color);
+	display:flex;
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;	
+	padding:20px;
+	border-radius:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50% , -50%);
+}
+.icon{
+	width:50px;
+	height:50px;
+	background-color:pink;
+	line-height:50px;
+	font-size:30px;
+	justify-content:center;
+	display:flex;
+}
+.setting{
+	display:flex;
+}
+.setting li{
+	width:20px;
+	height:20px;
+	list-style:none;
+	margin:10px;
+}
