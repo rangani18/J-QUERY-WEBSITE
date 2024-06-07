@@ -208,7 +208,7 @@ nav ul li:nth-child(1) a::before{
   color: var(--btn-color);
 }
 .ser-item:hover h5{
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .ser-item::after{
   content: '';
